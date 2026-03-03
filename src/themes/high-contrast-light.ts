@@ -1,0 +1,36 @@
+import type { BaseTheme } from "../types.js";
+
+export const highContrastLight: BaseTheme = {
+  name: "high-contrast-light",
+  mode: "light",
+  colors: {
+    background: "#ffffff",
+    surface: "#f0f0f0",
+    primary: "#0000cc",
+    secondary: "#007700",
+    accent: "#cc0000",
+    textPrimary: "#000000",
+    textSecondary: "#333333",
+    success: "#006600",
+    warning: "#cc8800",
+    error: "#cc0000",
+    ansi: {
+      black: "#000000",
+      red: "#aa0000",
+      green: "#006600",
+      yellow: "#886600",
+      blue: "#0000aa",
+      magenta: "#770077",
+      cyan: "#006677",
+      white: "#eeeeee",
+      brightBlack: "#555555",
+      brightRed: "#cc0000",
+      brightGreen: "#008800",
+      brightYellow: "#aa8800",
+      brightBlue: "#0000cc",
+      brightMagenta: "#990099",
+      brightCyan: "#008899",
+      brightWhite: "#ffffff",
+    },
+  },
+};

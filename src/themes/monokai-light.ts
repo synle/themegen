@@ -1,0 +1,36 @@
+import type { BaseTheme } from "../types.js";
+
+export const monokaiLight: BaseTheme = {
+  name: "monokai-light",
+  mode: "light",
+  colors: {
+    background: "#fafafa",
+    surface: "#f0f0f0",
+    primary: "#7a9a22",
+    secondary: "#3a8fad",
+    accent: "#c4265e",
+    textPrimary: "#272822",
+    textSecondary: "#75715e",
+    success: "#7a9a22",
+    warning: "#c49b17",
+    error: "#c4265e",
+    ansi: {
+      black: "#272822",
+      red: "#c4265e",
+      green: "#7a9a22",
+      yellow: "#c49b17",
+      blue: "#3a8fad",
+      magenta: "#8c6bc8",
+      cyan: "#56adbc",
+      white: "#fafafa",
+      brightBlack: "#75715e",
+      brightRed: "#f92672",
+      brightGreen: "#a6e22e",
+      brightYellow: "#e6db74",
+      brightBlue: "#66d9ef",
+      brightMagenta: "#ae81ff",
+      brightCyan: "#a1efe4",
+      brightWhite: "#f9f8f5",
+    },
+  },
+};

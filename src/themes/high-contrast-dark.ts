@@ -1,0 +1,36 @@
+import type { BaseTheme } from "../types.js";
+
+export const highContrastDark: BaseTheme = {
+  name: "high-contrast-dark",
+  mode: "dark",
+  colors: {
+    background: "#000000",
+    surface: "#1a1a1a",
+    primary: "#00ff00",
+    secondary: "#00bfff",
+    accent: "#ff6600",
+    textPrimary: "#ffffff",
+    textSecondary: "#cccccc",
+    success: "#00ff00",
+    warning: "#ffff00",
+    error: "#ff0000",
+    ansi: {
+      black: "#000000",
+      red: "#ff0000",
+      green: "#00ff00",
+      yellow: "#ffff00",
+      blue: "#0080ff",
+      magenta: "#ff00ff",
+      cyan: "#00ffff",
+      white: "#ffffff",
+      brightBlack: "#808080",
+      brightRed: "#ff5555",
+      brightGreen: "#55ff55",
+      brightYellow: "#ffff55",
+      brightBlue: "#5599ff",
+      brightMagenta: "#ff55ff",
+      brightCyan: "#55ffff",
+      brightWhite: "#ffffff",
+    },
+  },
+};
