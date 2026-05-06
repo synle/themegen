@@ -88,15 +88,15 @@ describe("WCAG contrast", () => {
 
   it("wcagCheck: black-on-white passes both AA and AAA", () => {
     const r = wcagCheck("#000000", "#ffffff");
-    expect(r.passesAA).toBe(true);
-    expect(r.passesAAA).toBe(true);
+    expect(r.aa).toBe(true);
+    expect(r.aaa).toBe(true);
     expect(r.ratio).toBeGreaterThan(7);
   });
 
   it("wcagCheck: low-contrast pair fails AA", () => {
     const r = wcagCheck("#bbbbbb", "#cccccc");
-    expect(r.passesAA).toBe(false);
-    expect(r.passesAAA).toBe(false);
+    expect(r.aa).toBe(false);
+    expect(r.aaa).toBe(false);
   });
 });
 
