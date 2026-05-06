@@ -35,8 +35,8 @@ jobs:
       - name: Package dist
         run: |
           mkdir -p release-artifacts
-          tar -czf release-artifacts/colorgen-${{ github.event.inputs.tag }}-dist.tar.gz dist/
-          zip -r release-artifacts/colorgen-${{ github.event.inputs.tag }}-dist.zip dist/
+          tar -czf release-artifacts/themegen-${{ github.event.inputs.tag }}-dist.tar.gz dist/
+          zip -r release-artifacts/themegen-${{ github.event.inputs.tag }}-dist.zip dist/
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
