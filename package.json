@@ -1,6 +1,6 @@
 {
   "name": "themegen",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI Color / Theme Generator — generates platform-specific theme files from a canonical color schema",
   "type": "module",
   "main": "dist/index.js",
@@ -13,7 +13,14 @@
     "dev": "tsc && node dist/index.js",
     "test": "vitest run"
   },
-  "keywords": ["theme", "color", "cli", "generator", "monokai", "tango"],
+  "keywords": [
+    "theme",
+    "color",
+    "cli",
+    "generator",
+    "monokai",
+    "tango"
+  ],
   "license": "MIT",
   "dependencies": {
     "commander": "^13.1.0"
